@@ -1,0 +1,19 @@
+{
+  "name": "prakash-reddy-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio of B. Prakash Reddy",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "node backend/server.js",
+    "frontend": "npx serve frontend"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "ai",
+    "machine-learning"
+  ],
+  "author": "B. Prakash Reddy",
+  "license": "MIT"
+}

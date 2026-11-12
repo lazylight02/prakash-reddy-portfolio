@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#09090B" />
+    <meta name="description" content="The personal portfolio of B. Prakash Reddy, an aspiring AI and ML engineer and first-year B.Tech student." />
+    <meta property="og:title" content="B. Prakash Reddy — Aspiring AI & ML Engineer" />
+    <meta property="og:description" content="A personal portfolio exploring artificial intelligence, programming, and technology." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/prakash-profile.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="B. Prakash Reddy — Aspiring AI & ML Engineer" />
+    <meta name="twitter:description" content="A personal portfolio exploring artificial intelligence, programming, and technology." />
+    <meta name="twitter:image" content="assets/prakash-profile.png" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2309090B'/%3E%3Cpath d='M19 47V17h14c9 0 15 5 15 14 0 9-6 16-15 16H19zm8-8h6c4 0 7-3 7-8s-3-7-7-7h-6v15z' fill='%23D8A6B2'/%3E%3C/svg%3E" />
+    <title>B. Prakash Reddy — Aspiring AI & ML Engineer</title>
+    <!-- Preconnect & Parallel Font Fetch for Instant Rendering -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div id="webgl-fallback" class="webgl-fallback" aria-hidden="true"></div>
+    <canvas id="scene" aria-hidden="true"></canvas>
+
+    <div class="intro" id="intro" aria-label="Portfolio introduction">
+      <div class="intro-glow"></div>
+      <p class="eyebrow intro-kicker">PORTFOLIO · 2026</p>
+      <p class="intro-name" data-profile="displayName">B. PRAKASH REDDY</p>
+      <p class="intro-copy" data-profile="title">Aspiring AI &amp; ML Engineer</p>
+      <button class="skip-intro" id="skipIntro" type="button">Skip intro <span>↗</span></button>
+    </div>
+
+    <header class="site-header" id="top">
+      <a class="monogram" href="#home" aria-label="Prakash Reddy home">PR<span>·</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" type="button"><i></i><i></i></button>
+      <nav class="nav" id="nav" aria-label="Primary navigation">
+        <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="header-contact" href="#contact">Let's connect <span>↗</span></a>
+    </header>
+
+    <main>
+      <section class="hero section" id="home" aria-labelledby="home-title">
+        <div class="orb orb-a" aria-hidden="true"></div><div class="orb orb-b" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span class="pulse"></span>AI &amp; ML STUDENT · ASPIRING BUILDER</p>
+            <h1 id="home-title">B. Prakash<br /><em>Reddy</em></h1>
+            <p class="lede">I’m a first-year B.Tech student at Joy University, building a foundation in AI, machine learning, and web development. I’m curious about how thoughtful ideas can become useful technology.</p>
+            <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span>↘</span></a><a class="button" href="#contact">Let’s connect <span>↗</span></a></div>
+          </div>
+          <div class="hero-portrait-wrap reveal delay-1">
+            <div class="hero-portrait-frame">
+              <div class="portrait-glow" aria-hidden="true"></div>
+              <img
+                class="hero-portrait-img"
+                src="assets/prakash-profile.png"
+                alt="Prakash Reddy profile photo"
+                width="340"
+                height="340"
+                loading="eager"
+                decoding="async"
+              />
+              <div class="portrait-ring portrait-ring-1" aria-hidden="true"></div>
+              <div class="portrait-ring portrait-ring-2" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-footer-row">
+          <div class="scroll-note"><span></span>SCROLL TO EXPLORE</div>
+          <aside class="hero-meta glass reveal delay-2">
+            <p class="meta-label">CURRENTLY</p><p data-profile="academicStatus">First-Year B.Tech Student</p><div class="line"></div><p class="meta-label">STUDYING</p><p data-profile="department">CSE AI (NXT WAVE)</p><div class="line"></div><a data-profile-href="github" href="https://github.com/lazylight02" target="_blank" rel="noopener noreferrer">GitHub profile <span>↗</span></a>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section content-section" id="about" aria-labelledby="about-title">
+        <div class="section-heading reveal"><p class="eyebrow">01 — ABOUT ME</p><h2 id="about-title">Learning with intent.<br /><em>Building with purpose.</em></h2></div>
+        <div class="about-layout">
+          <article class="about-statement glass wide reveal"><p class="big-quote">“</p><p>I’m B. Prakash Reddy, a first-year B.Tech student at Joy University. I’m exploring AI and software fundamentals, and learning how to shape ideas into practical, thoughtful applications.</p><div class="signature">B. PRAKASH REDDY <span>— student / builder</span></div></article>
+          <div class="about-side">
+            <article class="glass info-card reveal"><span class="card-index">01</span><h3>Education</h3><p data-profile="academicStatus">First-Year B.Tech Student</p><p class="muted" data-profile="college">Joy University, Vadakkankulam, Tirunelveli</p></article>
+            <article class="glass info-card reveal delay-1"><span class="card-index">02</span><h3>Direction</h3><p>Grow into an AI/ML engineer and create technology that is useful, accessible, and thoughtfully made.</p></article>
+          </div>
+        </div>
+        <div class="interest-strip reveal"><span>ARTIFICIAL INTELLIGENCE</span><i>✦</i><span>MACHINE LEARNING</span><i>✦</i><span>3D MODELLING</span><i>✦</i><span>BLENDER</span><i>✦</i><span>WEB DEVELOPMENT</span></div>
+      </section>
+
+      <section class="section content-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading split reveal"><div><p class="eyebrow">02 — SKILLS</p><h2 id="skills-title">The tools behind<br /><em>the curiosity.</em></h2></div><p class="section-note">A growing foundation across creative problem-solving, programming, and emerging AI workflows.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card glass reveal"><span>01</span><h3>Programming</h3><ul><li>Python</li><li>HTML</li><li>CSS</li></ul><div class="card-glyph">&lt;/&gt;</div></article>
+          <article class="skill-card glass reveal delay-1"><span>02</span><h3>Technical</h3><ul><li>Python Programming</li><li>AI Tools</li><li>Web Development</li><li>Prompt Engineering</li></ul><div class="card-glyph">✦</div></article>
+          <article class="skill-card glass reveal delay-2"><span>03</span><h3>Ways of working</h3><ul><li>Problem Solving</li><li>Creative Thinking</li><li>Independent Learning</li></ul><div class="card-glyph">◎</div></article>
+        </div>
+      </section>
+
+      <section class="section content-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading reveal"><p class="eyebrow">03 — SELECTED WORK</p><h2 id="projects-title">Small beginnings.<br /><em>Large intentions.</em></h2></div>
+        <div class="projects-grid">
+          <article class="project featured glass reveal">
+            <div class="project-visual smartwrite" aria-hidden="true"><div class="writing-window"><i></i><i></i><i></i><b>SmartWrite</b><span></span><span></span><span></span><div class="cursor"></div></div><div class="visual-ring"></div></div>
+            <div class="project-info"><p class="eyebrow">PROJECT 01 · CONCEPT</p><h3>SmartWrite <em>AI</em></h3><p>An AI-powered writing assistant project designed to explore intelligent writing support.</p><div class="project-foot"><span>IN EXPLORATION</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project coming-soon glass reveal delay-1"><div class="soon-visual" aria-hidden="true"><div class="wire-cube"><i></i><i></i><i></i></div><span>02</span></div><div class="project-info"><p class="eyebrow">PROJECT 02</p><h3>Coming <em>soon.</em></h3><p>Currently exploring and developing the next personal project.</p><div class="project-foot"><span>SPACE RESERVED</span><span class="project-arrow">+</span></div></div></article>
+        </div>
+      </section>
+
+      <section class="section content-section achievements" id="achievements" aria-labelledby="achievements-title">
+        <div class="achievement-glass glass reveal"><div><p class="eyebrow">04 — ACHIEVEMENTS</p><h2 id="achievements-title">The next milestone<br /><em>starts today.</em></h2></div><div class="empty-state"><span class="empty-icon">✦</span><p>No certifications or awards have been added yet.</p><small>This space is ready for future achievements.</small></div></div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow reveal">05 — CONTACT</p><h2 id="contact-title" class="reveal">Let’s make the next<br /><em>idea real.</em></h2>
+        <div class="contact-layout">
+          <div class="contact-links reveal">
+            <a data-profile-href="email" href="mailto:lazylight0903@gmail.com"><span>Email</span><b data-profile="email">lazylight0903@gmail.com</b> <i>↗</i></a>
+            <a data-profile-href="github" href="https://github.com/lazylight02" target="_blank" rel="noopener noreferrer"><span>GitHub</span>@lazylight02 <i>↗</i></a>
+          </div>
+          <form class="contact-form glass reveal delay-1" id="contactForm">
+            <label for="contactName">Your name</label>
+            <input id="contactName" name="name" placeholder="How should I call you?" required autocomplete="name" />
+            <label for="contactMessage">Your message</label>
+            <textarea id="contactMessage" name="message" placeholder="What’s on your mind?" required></textarea>
+            <button class="button primary" id="contactSubmit" type="submit">Prepare email <span>↗</span></button>
+            <p class="form-status" id="formStatus" aria-live="polite"></p>
+            <p class="form-hint">Opens your email app — no message is sent from this website.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><a class="monogram" href="#home">PR<span>·</span></a><p>© <span id="year"></span> <span data-profile="name">B. PRAKASH REDDY</span></p><p>DESIGNED FOR THE CURIOUS</p></footer>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
